@@ -4,7 +4,9 @@ Questionnaire Markup Language for Surveys and Polls
 
 ## Examples
 
-``
+Canonical question labels, numeric answers with canonical values, and numeric range answers
+
+``` yaml
 survey:
   name: 'Getting to Know You'
   questions:
@@ -16,9 +18,11 @@ survey:
   - 'age':
       text: 'How old are you?'
       answers: [18..99]
-``
+```
 
-``
+Text question labels, text answers
+
+``` yaml
 survey:
   name: 'Voight-Kampff Test'
   questions:
@@ -62,4 +66,4 @@ survey:
     - 'I wouldn''t eat boiled dog!'
     - 'Not true.'
     - 'Disgusting!'
-``
+```
