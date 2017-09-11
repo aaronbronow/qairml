@@ -1,0 +1,10 @@
+name: 'Getting to Know You'
+questions:
+- 'male or female': 
+    text: 'Are you male or female?'
+    answers:
+    - 1, 'male'
+    - 2, 'female'
+- 'age': 
+    text: 'How old are you?'
+    answers: [18..99]
